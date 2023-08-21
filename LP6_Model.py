@@ -143,7 +143,11 @@ other = [
 
 # final = description_1 + description_2 + other
 final = "LP5 MODEL: Churn Analysis Classification\n\ The LP5 model is designed to address a classification problem where the output is either positive or negative. This project focuses on Churn Analysis, specifically analyzing customer details from Vodafone company. The goal is to develop an ML model capable of predicting a customers likelihood of churning – discontinuing the use of the company's products and services.\n\n Dataset Columnsgender: object- SeniorCitizen: int64,- Partner: object,- Dependents: object,- tenure: int64,- PhoneService: object,- MultipleLines: object,- InternetService: object,- OnlineSecurity: object,- OnlineBackup: object,- DeviceProtection: object,- TechSupport: object,- StreamingTV: object,- StreamingMovies: object,- Contract: object,- PaperlessBilling: object,- PaymentMethod: object,- MonthlyCharges: float64,- TotalCharges: object"
-
+def analyze_sepsis_prediction(pred):
+        if pred == [1]:
+            print("Sepsis Positive")
+        else:
+            print("Sepsis Negative")
 
 @app.post("/predictions sepsiss", description=final)
 async def prediction(
@@ -177,11 +181,7 @@ async def prediction(
     pred = model.predict(input_df)
 
     # We have an output of either 1 or 0 since our target was encoded
-    def analyze_sepsis_prediction(pred):
-        if pred == [1]:
-            print("Sepsis Positive")
-        else:
-            print("Sepsis Negative")
+    
 
     # Creating a dictionary with a message about the prediction
     return {"predictions on sepsis dataset": f"The patient is most likely to be {pred}"}
