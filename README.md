@@ -7,6 +7,8 @@ Feel free to go about this **README.md** to get a good view of what this project
 
 # ABOUT PROJECT
 
+## ML MODEL EMBEDDING USING FAST_API
+
 # PROJECT AIMS
 
 # PROJECT RUBRICS
