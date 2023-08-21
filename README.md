@@ -12,18 +12,7 @@ Feel free to go about this **README.md** to get a good view of what this project
 Here we are given a dataset on a disease namely **sepssis**, which is dependent on some variables
 namely --
 0742623012 - complainant
-0741295118 - Evans (Kitususru area)
-**_ID_**-- number to represent patient ID
-**_PRG_**-- Plasma glucose
-**_PL_**-- Blood Work Result-1 (mu U/ml)
-**_PR_**-- Blood Pressure (mm Hg)
-**_SK_**-- Blood Work Result-2 (mm)
-**_TS_**-- Blood Work Result-3 (mu U/ml)
-**_M11_**-- Body mass index (weight in kg/(height in m)^2)
-**_BD2_**-- Blood Work Result-4 (mu U/ml)
-**_Age_**-- patients age (years)
-**_Insurance_**-- If a patient holds a valid insurance card
-**_Sepsis_**-- This is what we are tryingg to predict
+0741295118 - Evans (Kitususru area) -**_ID_**-- number to represent patient ID -**_PRG_**-- Plasma glucose -**_PL_**-- Blood Work Result-1 (mu U/ml) -**_PR_**-- Blood Pressure (mm Hg) -**_SK_**-- Blood Work Result-2 (mm) -**_TS_**-- Blood Work Result-3 (mu U/ml) -**_M11_**-- Body mass index (weight in kg/(height in m)^2) -**_BD2_**-- Blood Work Result-4 (mu U/ml) -**_Age_**-- patients age (years) -**_Insurance_**-- If a patient holds a valid insurance card -**_Sepsis_**-- This is what we are tryingg to predict
 
 Our task here is a classification problem, setting our stratify (y) to be our target column
 
