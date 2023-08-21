@@ -27,14 +27,14 @@ namely --
 
 Our task here is a classification problem, setting our stratify (y) to be our target column
 
-# PROJECT AIMS
+# PROJECT AIMS :bulb: :bulb: :bulb:
 
 Come up with the best ML model with a high accuracy
 Save the model as a pickle file
 embed the saved model in a .py file
 Create a decorative output
 
-# PROJECT RUBRICS
+# PROJECT RUBRICS :star: :star: :star:
 
 1. Perform an EDA on the dataset
 2. Do a QnA ,and a hypothesis testing
